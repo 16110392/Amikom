@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	
+	
+}
+
+.titlebg {
+    /* The image used */
+    background-image: url("me.jpg");
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titlebg .subtitle{
+	padding-top: 40px;
+	margin-left: 6%;
+	position: relative;
+	width: 830px;
+	height: 220px;
+	text-align: center;
+}
+
+.titlebg .subtitle tit{
+	font-size: 80px;	
+	font-family:  "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:rgba(255,255,255,0.4);
+	
+}
+
+.titlebg .subtitle titd{
+	font-size: 35px;	
+	font-family:  "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:rgba(255,255,255,0.4);
+}
+
+.edubg {
+    /* The image used */
+    background-image: url("cpb.jpg");
+
+    /* Set a specific height */
+    min-height: 220px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.edubg .edutit{
+	padding-top: 10px;
+	margin-left: 10%;
+	position: relative;
+	width: 830px;
+	height: 220px;
+	text-align: center;
+}
+
+.edubg .edutit edu{
+	font-size: 80px;	
+	font-family:  "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:rgba(255,255,255,0.4);
+	
+}
+
+.edubg .edutit edud{
+	font-size: 13px;	
+	font-family:  "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:rgba(255,255,255,0.4);
+}
+
+
